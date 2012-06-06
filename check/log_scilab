@@ -1,0 +1,523 @@
+ /bin/bash ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating macros/Makefile
+config.status: creating images/Makefile
+config.status: creating images/photonics/Makefile
+config.status: creating man/Makefile
+config.status: creating help/Makefile
+config.status: creating config/loader.sce
+config.status: creating config/sip_xmltohtml.sci
+config.status: creating config/loader_include.sce
+config.status: creating tests/Makefile
+config.status: creating src/config.h
+config.status: src/config.h is unchanged
+config.status: executing src/sip_config.h commands
+config.status: creating src/sip_config.h - prefix SIP for src/config.h defines
+config.status: src/sip_config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making all in src
+make[1]: Entering directory `/home/witness/trash/new/sip-0.5.6/src'
+(CDPATH="${ZSH_VERSION+.}:" && cd .. && /bin/bash /home/witness/trash/new/sip-0.5.6/config/missing --run autoheader)
+rm -f stamp-h1
+touch config.h.in
+cd .. && /bin/bash ./config.status src/config.h
+config.status: creating src/config.h
+config.status: src/config.h is unchanged
+make  all-am
+make[2]: Entering directory `/home/witness/trash/new/sip-0.5.6/src'
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT libsip.lo -MD -MP -MF .deps/libsip.Tpo -c -o libsip.lo libsip.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT libsip.lo -MD -MP -MF .deps/libsip.Tpo -c libsip.c  -fPIC -DPIC -o .libs/libsip.o
+In file included from sip_common.h:54:0,
+                 from libsip.c:1:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from libsip.c:1:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from libsip.c:1:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from libsip.c:1:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from libsip.c:1:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+libsip.c: In function 'direct_gateway':
+libsip.c:6:33: warning: unused parameter 'fname' [-Wunused-parameter]
+libsip.c: At top level:
+libsip.c:6:12: warning: 'direct_gateway' defined but not used [-Wunused-function]
+mv -f .deps/libsip.Tpo .deps/libsip.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT imread.lo -MD -MP -MF .deps/imread.Tpo -c -o imread.lo imread.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT imread.lo -MD -MP -MF .deps/imread.Tpo -c imread.c  -fPIC -DPIC -o .libs/imread.o
+In file included from sip_common.h:54:0,
+                 from imread.c:27:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from imread.c:27:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from imread.c:27:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from imread.c:27:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from imread.c:27:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+imread.c: In function 'int_imread':
+imread.c:73:4: warning: 'InitializeMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:323) [-Wdeprecated-declarations]
+imread.c:90:10: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+imread.c:91:10: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+imread.c:95:7: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+imread.c:103:7: warning: implicit declaration of function 'sciprint' [-Wimplicit-function-declaration]
+imread.c:108:4: warning: 'GetImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:249) [-Wdeprecated-declarations]
+imread.c:146:4: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+imread.c:54:19: warning: variable 'imgsize' set but not used [-Wunused-but-set-variable]
+mv -f .deps/imread.Tpo .deps/imread.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT imwrite.lo -MD -MP -MF .deps/imwrite.Tpo -c -o imwrite.lo imwrite.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT imwrite.lo -MD -MP -MF .deps/imwrite.Tpo -c imwrite.c  -fPIC -DPIC -o .libs/imwrite.o
+In file included from sip_common.h:54:0,
+                 from imwrite.c:26:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from imwrite.c:26:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from imwrite.c:26:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from imwrite.c:26:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from imwrite.c:26:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+imwrite.c: In function 'int_imwrite':
+imwrite.c:80:10: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+imwrite.c:95:4: warning: 'InitializeMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:323) [-Wdeprecated-declarations]
+imwrite.c:105:4: warning: 'AllocateImage' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:122) [-Wdeprecated-declarations]
+imwrite.c:137:7: warning: implicit declaration of function 'sciprint' [-Wimplicit-function-declaration]
+imwrite.c:142:4: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+mv -f .deps/imwrite.Tpo .deps/imwrite.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT imfinfo.lo -MD -MP -MF .deps/imfinfo.Tpo -c -o imfinfo.lo imfinfo.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT imfinfo.lo -MD -MP -MF .deps/imfinfo.Tpo -c imfinfo.c  -fPIC -DPIC -o .libs/imfinfo.o
+In file included from sip_common.h:54:0,
+                 from imfinfo.c:25:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from imfinfo.c:25:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from imfinfo.c:25:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from imfinfo.c:25:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from imfinfo.c:25:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+imfinfo.c: In function 'int_imfinfo':
+imfinfo.c:80:10: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+imfinfo.c:84:4: warning: 'InitializeMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:323) [-Wdeprecated-declarations]
+imfinfo.c:102:10: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+imfinfo.c:107:7: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+imfinfo.c:119:4: warning: 'SizeBlob' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:230) [-Wdeprecated-declarations]
+imfinfo.c:127:11: warning: assignment from incompatible pointer type [enabled by default]
+imfinfo.c:130:12: warning: assignment from incompatible pointer type [enabled by default]
+imfinfo.c:133:11: warning: assignment from incompatible pointer type [enabled by default]
+imfinfo.c:140:20: warning: assignment from incompatible pointer type [enabled by default]
+imfinfo.c:164:7: warning: implicit declaration of function 'sciprint' [-Wimplicit-function-declaration]
+imfinfo.c:182:4: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+imfinfo.c:162:11: warning: 'arg2' may be used uninitialized in this function [-Wuninitialized]
+mv -f .deps/imfinfo.Tpo .deps/imfinfo.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT mogrify_int.lo -MD -MP -MF .deps/mogrify_int.Tpo -c -o mogrify_int.lo mogrify_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT mogrify_int.lo -MD -MP -MF .deps/mogrify_int.Tpo -c mogrify_int.c  -fPIC -DPIC -o .libs/mogrify_int.o
+In file included from sip_common.h:54:0,
+                 from mogrify_int.c:25:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from mogrify_int.c:25:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from mogrify_int.c:25:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from mogrify_int.c:25:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from mogrify_int.c:25:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+mogrify_int.c: In function 'mogrify_int':
+mogrify_int.c:75:4: warning: 'InitializeMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:323) [-Wdeprecated-declarations]
+mogrify_int.c:78:4: warning: 'AllocateImage' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:122) [-Wdeprecated-declarations]
+mogrify_int.c:102:13: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+mogrify_int.c:114:7: warning: implicit declaration of function 'sciprint' [-Wimplicit-function-declaration]
+mogrify_int.c:142:7: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+mogrify_int.c:147:4: warning: passing argument 3 of 'MogrifyImage' from incompatible pointer type [enabled by default]
+/usr/local/include/ImageMagick/wand/mogrify.h:31:3: note: expected 'const char **' but argument is of type 'char **'
+mogrify_int.c:155:4: warning: implicit declaration of function 'FreeRhsSVar' [-Wimplicit-function-declaration]
+mogrify_int.c:162:4: warning: 'GetImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:249) [-Wdeprecated-declarations]
+mogrify_int.c:204:4: warning: 'DestroyMagick' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:308) [-Wdeprecated-declarations]
+mogrify_int.c: In function 'check_argv_validity':
+mogrify_int.c:250:13: warning: variable 'global_colormap' set but not used [-Wunused-but-set-variable]
+mv -f .deps/mogrify_int.Tpo .deps/mogrify_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT img_int.lo -MD -MP -MF .deps/img_int.Tpo -c -o img_int.lo img_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT img_int.lo -MD -MP -MF .deps/img_int.Tpo -c img_int.c  -fPIC -DPIC -o .libs/img_int.o
+In file included from sip_common.h:54:0,
+                 from img_int.c:25:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from img_int.c:25:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from img_int.c:25:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from img_int.c:25:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from img_int.c:25:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+img_int.c: In function 'drawline_int':
+img_int.c:56:7: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+mv -f .deps/img_int.Tpo .deps/img_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT analysis_int.lo -MD -MP -MF .deps/analysis_int.Tpo -c -o analysis_int.lo analysis_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT analysis_int.lo -MD -MP -MF .deps/analysis_int.Tpo -c analysis_int.c  -fPIC -DPIC -o .libs/analysis_int.o
+In file included from analysis_int.c:23:0:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from analysis_int.c:23:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from analysis_int.c:23:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from analysis_int.c:23:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from analysis_int.c:23:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+analysis_int.c: In function 'skel_int':
+analysis_int.c:66:10: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+analysis_int.c: In function 'bwdist_int':
+analysis_int.c:297:7: warning: implicit declaration of function 'sciprint' [-Wimplicit-function-declaration]
+mv -f .deps/analysis_int.Tpo .deps/analysis_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT morphology_int.lo -MD -MP -MF .deps/morphology_int.Tpo -c -o morphology_int.lo morphology_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT morphology_int.lo -MD -MP -MF .deps/morphology_int.Tpo -c morphology_int.c  -fPIC -DPIC -o .libs/morphology_int.o
+In file included from morphology_int.c:23:0:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from morphology_int.c:23:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from morphology_int.c:23:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from morphology_int.c:23:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from morphology_int.c:23:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+morphology_int.c: In function 'edilate_int':
+morphology_int.c:76:4: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+mv -f .deps/morphology_int.Tpo .deps/morphology_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT hello_int.lo -MD -MP -MF .deps/hello_int.Tpo -c -o hello_int.lo hello_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT hello_int.lo -MD -MP -MF .deps/hello_int.Tpo -c hello_int.c  -fPIC -DPIC -o .libs/hello_int.o
+In file included from sip_common.h:54:0,
+                 from hello_int.c:24:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from hello_int.c:24:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from hello_int.c:24:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from hello_int.c:24:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from hello_int.c:24:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+mv -f .deps/hello_int.Tpo .deps/hello_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT segment_int.lo -MD -MP -MF .deps/segment_int.Tpo -c -o segment_int.lo segment_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT segment_int.lo -MD -MP -MF .deps/segment_int.Tpo -c segment_int.c  -fPIC -DPIC -o .libs/segment_int.o
+In file included from segment_int.c:23:0:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from segment_int.c:23:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from segment_int.c:23:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from segment_int.c:23:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from segment_int.c:23:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+segment_int.c: In function 'bwlabel_int':
+segment_int.c:72:7: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+mv -f .deps/segment_int.Tpo .deps/segment_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT sip_common.lo -MD -MP -MF .deps/sip_common.Tpo -c -o sip_common.lo sip_common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT sip_common.lo -MD -MP -MF .deps/sip_common.Tpo -c sip_common.c  -fPIC -DPIC -o .libs/sip_common.o
+In file included from sip_common.h:54:0,
+                 from sip_common.c:22:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from sip_common.c:22:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from sip_common.c:22:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from sip_common.c:22:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from sip_common.c:22:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+sip_common.c: In function 'sci_2D_double_matrix_to_magick':
+sip_common.c:38:4: warning: 'SetImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:256) [-Wdeprecated-declarations]
+sip_common.c:40:7: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+sip_common.c:40:7: warning: implicit declaration of function 'sciprint' [-Wimplicit-function-declaration]
+sip_common.c:57:4: warning: 'SyncImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:217) [-Wdeprecated-declarations]
+sip_common.c:29:94: warning: parameter 'ppix' set but not used [-Wunused-but-set-parameter]
+sip_common.c: In function 'sci_3D_double_hypermat_to_magick':
+sip_common.c:79:4: warning: 'SetImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:256) [-Wdeprecated-declarations]
+sip_common.c:94:4: warning: 'SyncImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:217) [-Wdeprecated-declarations]
+sip_common.c: In function 'sci_index_map_to_magick':
+sip_common.c:122:4: warning: 'SetImagePixels' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:256) [-Wdeprecated-declarations]
+sip_common.c:128:4: warning: 'GetIndexes' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:150) [-Wdeprecated-declarations]
+sip_common.c:131:4: warning: 'AllocateImageColormap' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:169) [-Wdeprecated-declarations]
+sip_common.c:107:17: warning: variable 'imgsize' set but not used [-Wunused-but-set-variable]
+sip_common.c: In function 'sip_get_rhs_hmat':
+sip_common.c:242:3: warning: implicit declaration of function 'FreeRhsSVar' [-Wimplicit-function-declaration]
+sip_common.c: In function 'magick_index_map_to_sci_dbl':
+sip_common.c:333:4: warning: 'GetIndexes' is deprecated (declared at /usr/local/include/ImageMagick/magick/deprecate.h:150) [-Wdeprecated-declarations]
+mv -f .deps/sip_common.Tpo .deps/sip_common.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT misc_int.lo -MD -MP -MF .deps/misc_int.Tpo -c -o misc_int.lo misc_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT misc_int.lo -MD -MP -MF .deps/misc_int.Tpo -c misc_int.c  -fPIC -DPIC -o .libs/misc_int.o
+In file included from sip_common.h:54:0,
+                 from misc_int.c:25:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from misc_int.c:25:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from misc_int.c:25:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from misc_int.c:25:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from misc_int.c:25:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+misc_int.c: In function 'sip_setenv_int':
+misc_int.c:43:7: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+mv -f .deps/misc_int.Tpo .deps/misc_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT imvariance_int.lo -MD -MP -MF .deps/imvariance_int.Tpo -c -o imvariance_int.lo imvariance_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT imvariance_int.lo -MD -MP -MF .deps/imvariance_int.Tpo -c imvariance_int.c  -fPIC -DPIC -o .libs/imvariance_int.o
+In file included from sip_common.h:54:0,
+                 from imvariance_int.c:22:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from imvariance_int.c:22:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from imvariance_int.c:22:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from imvariance_int.c:22:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from imvariance_int.c:22:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+mv -f .deps/imvariance_int.Tpo .deps/imvariance_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT unwrapp_int.lo -MD -MP -MF .deps/unwrapp_int.Tpo -c -o unwrapp_int.lo unwrapp_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT unwrapp_int.lo -MD -MP -MF .deps/unwrapp_int.Tpo -c unwrapp_int.c  -fPIC -DPIC -o .libs/unwrapp_int.o
+In file included from sip_common.h:54:0,
+                 from unwrapp_int.c:22:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from unwrapp_int.c:22:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from unwrapp_int.c:22:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from unwrapp_int.c:22:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from unwrapp_int.c:22:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+unwrapp_int.c: In function 'unwrapp_c_int':
+unwrapp_int.c:50:9: warning: unused variable 'c2' [-Wunused-variable]
+unwrapp_int.c:50:5: warning: unused variable 'r2' [-Wunused-variable]
+unwrapp_int.c: In function 'unwrapp_c':
+unwrapp_int.c:114:17: warning: unused variable 'somme' [-Wunused-variable]
+mv -f .deps/unwrapp_int.Tpo .deps/unwrapp_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT unwrapl_int.lo -MD -MP -MF .deps/unwrapl_int.Tpo -c -o unwrapl_int.lo unwrapl_int.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/ -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -MT unwrapl_int.lo -MD -MP -MF .deps/unwrapl_int.Tpo -c unwrapl_int.c  -fPIC -DPIC -o .libs/unwrapl_int.o
+In file included from sip_common.h:54:0,
+                 from unwrapl_int.c:26:
+/usr/include/scilab/stack-c.h:19:9: note: #pragma message: Using stack-c.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-c.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:34:0,
+                 from sip_common.h:54,
+                 from unwrapl_int.c:26:
+/usr/include/scilab/stack-def.h:19:9: note: #pragma message: Using stack-def.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack-def.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:39:0,
+                 from sip_common.h:54,
+                 from unwrapl_int.c:26:
+/usr/include/scilab/stack1.h:16:9: note: #pragma message: Using stack1.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack1.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:40:0,
+                 from sip_common.h:54,
+                 from unwrapl_int.c:26:
+/usr/include/scilab/stack2.h:17:9: note: #pragma message: Using stack2.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack2.h API will be removed after Scilab 6.0.
+In file included from /usr/include/scilab/stack-c.h:41:0,
+                 from sip_common.h:54,
+                 from unwrapl_int.c:26:
+/usr/include/scilab/stack3.h:25:9: note: #pragma message: Using stack3.h is deprecated. Please use api_scilab instead (try 'help api_scilab'). Note the stack3.h API will be removed after Scilab 6.0.
+unwrapl_int.c: In function 'unwrapl_c_int':
+unwrapl_int.c:69:4: warning: implicit declaration of function 'Scierror' [-Wimplicit-function-declaration]
+mv -f .deps/unwrapl_int.Tpo .deps/unwrapl_int.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -no-undefined -version-info 0:0:0 -release 0.5.6  -o libsip.la -rpath /usr/local/share/scilab//contrib/sip-0.5.6/lib libsip.lo imread.lo imwrite.lo imfinfo.lo mogrify_int.lo img_int.lo analysis_int.lo morphology_int.lo hello_int.lo segment_int.lo sip_common.lo misc_int.lo imvariance_int.lo unwrapp_int.lo unwrapl_int.lo  -L/usr/local/lib -lMagickWand -lMagickCore   -L/usr/local/lib -lMagickWand -lMagickCore     -L/usr/local/lib -L/usr/local/lib -lMagickCore    -L/usr/local/lib -lMagickCore   -lanimal -L/usr/local/lib -lMagickCore   -L/usr/local/lib -lMagickCore   -lm  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libsip.o .libs/imread.o .libs/imwrite.o .libs/imfinfo.o .libs/mogrify_int.o .libs/img_int.o .libs/analysis_int.o .libs/morphology_int.o .libs/hello_int.o .libs/segment_int.o .libs/sip_common.o .libs/misc_int.o .libs/imvariance_int.o .libs/unwrapp_int.o .libs/unwrapl_int.o   -L/usr/local/lib /usr/local/lib/libMagickWand.so /usr/local/lib/libanimal.so /usr/local/lib/libMagickCore.so -lm  -O2   -pthread -fopenmp -Wl,-soname -Wl,libsip-0.5.6.so.0 -o .libs/libsip-0.5.6.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libsip-0.5.6.so.0" && ln -s "libsip-0.5.6.so.0.0.0" "libsip-0.5.6.so.0")
+libtool: link: (cd ".libs" && rm -f "libsip.so" && ln -s "libsip-0.5.6.so.0.0.0" "libsip.so")
+libtool: link: ( cd ".libs" && rm -f "libsip.la" && ln -s "../libsip.la" "libsip.la" )
+make[2]: Leaving directory `/home/witness/trash/new/sip-0.5.6/src'
+make[1]: Leaving directory `/home/witness/trash/new/sip-0.5.6/src'
+Making all in macros
+make[1]: Entering directory `/home/witness/trash/new/sip-0.5.6/macros'
+scilab -nw -nb -f buildmacros.sce ;
+ 
+ Building macros  in /home/witness/trash/new/sip-0.5.6/macros/   
+-- Creation of [siplib] (Macros) --
+genlib: Processing file: curvature.sci
+genlib: Processing file: gsm2d.sci
+genlib: Processing file: imroi.sci
+genlib: Processing file: imconv.sci
+genlib: Processing file: edge.sci
+genlib: Processing file: unfollow.sci
+genlib: Processing file: exp2rot_matrix.sci
+genlib: Processing file: bwborder.sci
+genlib: Processing file: fractal.sci
+genlib: Processing file: unwrapl.sci
+genlib: Processing file: sip_colormap.sci
+genlib: Processing file: normal.sci
+genlib: Processing file: imphase.sci
+genlib: Processing file: unwrapp.sci
+genlib: Processing file: ind2rgb.sci
+genlib: Processing file: perim.sci
+genlib: Processing file: radon.sci
+genlib: Processing file: quaternion_multiply.sci
+genlib: Processing file: rgb2ntsc.sci
+genlib: Processing file: sip_approx_true_cmap.sci
+genlib: Processing file: improfile.sci
+genlib: Processing file: sip_wordy.sci
+genlib: Processing file: sip_quiet.sci
+genlib: Processing file: quaternion2rot_matrix.sci
+genlib: Processing file: hough.sci
+genlib: Processing file: im2gray.sci
+genlib: Processing file: rgbplot.sci
+genlib: Processing file: dilate.sci
+genlib: Processing file: xgetpixel.sci
+genlib: Processing file: iradon.sci
+genlib: Processing file: imnoise.sci
+genlib: Processing file: rot_matrix2quaternion.sci
+genlib: Processing file: curvature2d.sci
+genlib: Processing file: quaternion_matrix.sci
+genlib: Processing file: imxprofile.sci
+genlib: Processing file: erode.sci
+genlib: Processing file: sip_fftshift.sci
+genlib: Processing file: follow.sci
+genlib: Processing file: xor.sci
+genlib: Processing file: getangle.sci
+genlib: Processing file: pifilter.sci
+genlib: Processing file: minmax.sci
+genlib: Processing file: imcorrcoef.sci
+genlib: Processing file: mkfftfilter.sci
+genlib: Processing file: mkfilter.sci
+genlib: Processing file: sip_index_true_cmap.sci
+genlib: Processing file: sipdemo.sci
+genlib: Processing file: gray_imread.sci
+genlib: Processing file: im2bw.sci
+genlib: Processing file: sip_rq.sci
+genlib: Processing file: ntsc2rgb.sci
+genlib: Processing file: poledetection.sci
+genlib: Processing file: gsm2d_old.sci
+genlib: Processing file: ihough.sci
+genlib: Processing file: gsm.sci
+genlib: Processing file: KRC_from_P.sci
+genlib: Processing file: imshow.sci
+genlib: Processing file: fftderiv.sci
+genlib: Regenerate names and lib
+make[1]: Leaving directory `/home/witness/trash/new/sip-0.5.6/macros'
+Making all in images
+make[1]: Entering directory `/home/witness/trash/new/sip-0.5.6/images'
+Making all in photonics
+make[2]: Entering directory `/home/witness/trash/new/sip-0.5.6/images/photonics'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/witness/trash/new/sip-0.5.6/images/photonics'
+make[2]: Entering directory `/home/witness/trash/new/sip-0.5.6/images'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/home/witness/trash/new/sip-0.5.6/images'
+make[1]: Leaving directory `/home/witness/trash/new/sip-0.5.6/images'
+Making all in help
+make[1]: Entering directory `/home/witness/trash/new/sip-0.5.6/help'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/witness/trash/new/sip-0.5.6/help'
+Making all in tests
+make[1]: Entering directory `/home/witness/trash/new/sip-0.5.6/tests'
+gcc -DHAVE_CONFIG_H -I. -I../src   -I/usr/include/scilab/routines/ -I/usr/include/scilab/core/ -I/usr/include/scilab/mexlib/ -I/usr/include/scilab/  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick    -MT sip_link_test.o -MD -MP -MF .deps/sip_link_test.Tpo -c -o sip_link_test.o sip_link_test.c
+mv -f .deps/sip_link_test.Tpo .deps/sip_link_test.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick    -fopenmp -I/usr/local/include/ImageMagick      -o sip_link_test sip_link_test.o ../src/libsip.la /usr/lib/scilab/libscilab.so -L/usr/local/lib -lMagickWand -lMagickCore   -L/usr/local/lib -lMagickWand -lMagickCore     -L/usr/local/lib -L/usr/local/lib -lMagickCore    -L/usr/local/lib -lMagickCore   -lanimal -L/usr/local/lib -lMagickCore   -L/usr/local/lib -lMagickCore   -lm  
+libtool: link: gcc -g -O2 -W -Wall -Wno-implicit-int -I/usr/local/include -fopenmp -I/usr/local/include/ImageMagick -fopenmp -I/usr/local/include/ImageMagick -o .libs/sip_link_test sip_link_test.o /usr/lib/scilab/libscilab.so  ../src/.libs/libsip.so -L/usr/local/lib /usr/local/lib/libMagickWand.so /usr/local/lib/libanimal.so /usr/local/lib/libMagickCore.so -lm -fopenmp -pthread -Wl,-rpath -Wl,/usr/local/share/scilab//contrib/sip-0.5.6/lib
+make[1]: Leaving directory `/home/witness/trash/new/sip-0.5.6/tests'
+make[1]: Entering directory `/home/witness/trash/new/sip-0.5.6'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/home/witness/trash/new/sip-0.5.6'
